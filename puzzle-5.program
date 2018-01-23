@@ -1,0 +1,11 @@
+var n = 12
+while (n > 0) {
+	if (getColor == 'red') {
+		up
+	} else if (getColor == 'blue'){
+		down
+	} else {
+		right
+	}
+	n -= 1
+}
