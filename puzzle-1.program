@@ -1,0 +1,11 @@
+function repeat(command, n) {
+	while (n > 0) {
+		command
+		n -= 1
+	}
+}
+
+repeat(down, 7)
+repeat(right, 3)
+repeat(up, 2)
+repeat(right, 4)
