@@ -1,0 +1,21 @@
+function repeat(command, n) {
+	while (n > 0) {
+		command
+		n -= 1
+	}
+}
+
+function moveAndPaint(direction, color) {
+	direction
+	setColor(color)
+}
+
+right
+repeat(down, 4)
+var color = getColor
+moveAndPaint(down, color)
+repeat(right, 3)
+up 
+var color = getColor
+moveAndPaint(down, color)
+repeat(right, 2)
