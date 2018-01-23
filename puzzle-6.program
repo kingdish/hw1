@@ -1,0 +1,20 @@
+function repeat(n, command) {
+	while (n > 0) {
+		command
+		n -= 1
+	}
+}
+
+right
+if (getColor == 'red') {
+	repeat(up, 3)
+}
+if (getColor == 'blue') {
+	repeat(down, 3)
+}
+if (getColor == 'red') {
+	left 
+}
+if (getColor == 'blue') {
+	repeat(down, 3)
+}
