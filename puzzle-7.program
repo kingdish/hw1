@@ -1,0 +1,27 @@
+function repeat(n, command) {
+	while (n > 0) {
+		command
+		n -= 1
+	}
+}
+
+while (getColor != 'white') {
+	down
+}
+repeat(right, 2)
+while (getColor != 'white') {
+	up
+}
+repeat(right, 2)
+while (getColor != 'white') {
+	down
+}
+repeat(right, 2)
+while (getColor != 'white') {
+	up
+}
+repeat(right, 2)
+while (getColor != 'white') {
+	down
+}
+right
