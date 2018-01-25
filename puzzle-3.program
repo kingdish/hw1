@@ -1,18 +1,14 @@
 function repeat(command, n) {
 	while (n > 0) {
-		command
+		command()
 		n -= 1
 	}
 }
 
-function moveAndPaint(direction, color) {
-	direction
-	setColor(color)
-}
-
 repeat(down, 2)
-var color = getColor
-repeat(moveAndPaint(down, color), 3)
-repeat(moveAndPaint(right, color), 2)
+var color = getColor()
+repeat(down, 3)
 repeat(right, 2)
-up 
+setColor(color)
+repeat(right, 2)
+up
