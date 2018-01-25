@@ -8,13 +8,23 @@ function repeat(n, command) {
 right
 if (getColor == 'red') {
 	repeat(up, 3)
+	if (getColor == 'red') {
+		left
+		up
+	}
+	else {
+		right
+		up
+	}
 }
-if (getColor == 'blue') {
+else {
 	repeat(down, 3)
-}
-if (getColor == 'red') {
-	left 
-}
-if (getColor == 'blue') {
-	repeat(down, 3)
+	if (getColor == 'red') {
+		left
+		down
+	}
+	else {
+		right
+		down
+	}
 }
