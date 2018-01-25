@@ -5,23 +5,23 @@ function repeat(n, command) {
 	}
 }
 
-while (getColor != 'white') {
+while (getColor == 'white') {
 	down
 }
 repeat(right, 2)
-while (getColor != 'white') {
+while (getColor == 'white') {
 	up
 }
 repeat(right, 2)
-while (getColor != 'white') {
+while (getColor == 'white') {
 	down
 }
 repeat(right, 2)
-while (getColor != 'white') {
+while (getColor == 'white') {
 	up
 }
 repeat(right, 2)
-while (getColor != 'white') {
+while (getColor == 'white') {
 	down
 }
 right
